@@ -3,6 +3,7 @@
     package="com.example.xxdxxhbgxt">
 
     <application
+       android:name="org.litepal.LitePalApplication">//操作数据库时需要使用到Context参数，我们不想每次都传递这个参数,因此需配置org.litepal.LitePalApplication
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value="db_weather"/>//指定数据库名
+    <version value="1"/>//数据库版本号初始为1
+    <list>//将库中的三个实体类添加到映射表中
+        <mapping class="com.example.xxdxxhbgxt.db.City"/>
+        <mapping class="com.example.xxdxxhbgxt.db.County"/>
+        <mapping class="com.example.xxdxxhbgxt.db.province"/>
+    </list>
+</litepal>
