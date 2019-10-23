@@ -6,9 +6,9 @@ import org.litepal.crud.LitePalSupport;
  * Created by Administrator on 2019/10/16 0016.
  */
 
-public class province extends LitePalSupport {
+public class Province extends LitePalSupport {
     private int id;//省的编号
-    private  String provinceName;//省的名称
+    private String provinceName;//省的名称
     private  int provinceCode;//省的代号
 
     public   int getId(){
@@ -19,14 +19,14 @@ public class province extends LitePalSupport {
 
     public   String getProvinceName(){
         return provinceName;//取得省的名字
-    }  public   void setProvinceName(){
-        this.provinceName=provinceName;//设置省的名字
+    }  public   void setProvinceName(String name){
+        this.provinceName = provinceName;//设置省的名字
     }
 
     public   int getProvinceCode(){
         return provinceCode;//取得省的代号
     }
-    public  void setProvinceCode(){
+    public  void setProvinceCode(int id){
         this.provinceCode=provinceCode;//设置省的代号
     }
 }
